@@ -19,7 +19,7 @@ if($conn===FALSE){
     echo ("connection failed");
 }
 else {
-    echo ("connection succeded");
+    echo ("connection succeeded");
 }
 
 
