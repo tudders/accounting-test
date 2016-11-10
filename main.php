@@ -7,11 +7,6 @@ error_reporting(E_ALL);
 
 echo time()."<br>";
 
-$serverName = "accounting-test.database.windows.net";
-$connectionOptions = array("Database"=>"accounting-test",
-                                    "Uid" => "tudders",
-                                    "PWD"=>"Ioio1010"
-                                    );
 
 $conn = sqlsrv_connect($serverName,$connectionOptions);
 
